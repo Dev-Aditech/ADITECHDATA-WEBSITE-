@@ -1,0 +1,23 @@
+[22-Feb-2024 07:52:34 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[22-Feb-2024 07:52:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/register/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[06-Jul-2024 10:09:35 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class "PDO" not found in /home/smartdat/smartsub.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/smartdat/smartsub.ng/core/Models/Model.php(23): Model->connectDb()
+#1 /home/smartdat/smartsub.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#2 /home/smartdat/smartsub.ng/mobile/home/includes/route.php(66): Subscriber->__construct()
+#3 /home/smartdat/smartsub.ng/mobile/register/index.php(24): require_once('/home/smartdat/...')
+#4 {main}
+  thrown in /home/smartdat/smartsub.ng/core/Models/Model.php on line 29
+[06-Jul-2024 10:09:37 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class "PDO" not found in /home/smartdat/smartsub.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/smartdat/smartsub.ng/core/Models/Model.php(23): Model->connectDb()
+#1 /home/smartdat/smartsub.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#2 /home/smartdat/smartsub.ng/mobile/home/includes/route.php(66): Subscriber->__construct()
+#3 /home/smartdat/smartsub.ng/mobile/register/index.php(24): require_once('/home/smartdat/...')
+#4 {main}
+  thrown in /home/smartdat/smartsub.ng/core/Models/Model.php on line 29

@@ -1,0 +1,1 @@
+{"status":"fail","msg":"Server Connection Error","api_response_log":"{\"status\":\"fail\",\"msg\":\"Server Connection Error\"} : Failed to connect to alrahuzdata.com.ng port 443 after 46 ms: Couldn't connect to server"} Failed to connect to alrahuzdata.com.ng port 443 after 46 ms: Couldn't connect to server https://alrahuzdata.com.ng/api/data/

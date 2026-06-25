@@ -1,0 +1,1 @@
+{"Host":"quickjot.com.ng","Accept":"*\/*","x-wiaxy-signature":"d7c31ccb71ac816cf2dd200b791c91df","Content-Type":"application\/json","Content-Length":"604","X-HTTPS":"1"}

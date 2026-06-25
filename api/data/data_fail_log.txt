@@ -1,0 +1,1 @@
+{"status":"fail","Status":"failed","msg":"Transaction Failed, Please Try Again Later","api_response":"Activation of SHARE 500MB was not successful. Please try again."}

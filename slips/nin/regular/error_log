@@ -1,0 +1,4 @@
+[15-Nov-2024 17:28:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'vtutelec_haske'@'localhost' (using password: YES) in /home2/specials/public_html/slips/nin/regular/index.php on line 2
+[15-Nov-2024 17:28:50 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/regular/index.php on line 5
+[15-Nov-2024 17:28:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/regular/index.php on line 6
+[15-Nov-2024 17:28:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/specials/public_html/slips/nin/regular/index.php on line 7

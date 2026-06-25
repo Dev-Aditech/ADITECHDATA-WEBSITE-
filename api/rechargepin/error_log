@@ -1,0 +1,12 @@
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Warning:  Undefined property: stdClass::$aBuyDiscount in /home/eplxbrcj/public_html/core/Controllers/ApiAccess.php on line 248
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Warning:  Undefined array key "price" in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php on line 254
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Warning:  Undefined array key "name" in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php on line 278
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Warning:  Undefined array key "datatype" in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php on line 278
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Warning:  Undefined array key "day" in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php on line 278
+[11-Apr-2024 06:52:53 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method RechargeCard::purchaseRechargePin() in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php:342
+Stack trace:
+#0 {main}
+  thrown in /home/eplxbrcj/public_html/@@2700/rechargepin/index.php on line 342
+[29-Sep-2024 00:40:51 Africa/Lagos] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vtutele1/public_html/core/Models/ApiModel.php:1401) in /home/vtutele1/public_html/api/rechargepin/index.php on line 61
+[25-Oct-2024 07:24:28 Africa/Lagos] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vtutele1/public_html/core/Models/ApiModel.php:1401) in /home/vtutele1/public_html/api/rechargepin/index.php on line 61
+[27-Oct-2024 14:18:42 Africa/Lagos] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vtutele1/public_html/core/Models/ApiModel.php:1401) in /home/vtutele1/public_html/api/rechargepin/index.php on line 61

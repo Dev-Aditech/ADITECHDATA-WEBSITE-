@@ -1,0 +1,133 @@
+[23-Oct-2023 13:40:30 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'dataflex_dataflex'@'localhost' (using password: YES) in /home/dataeqwh/test.dataflex.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/dataeqwh/test.dataflex.ng/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'dataflex_datafl...', '@@080@@aZ')
+#1 /home/dataeqwh/test.dataflex.ng/core/Models/Model.php(23): Model->connectDb()
+#2 /home/dataeqwh/test.dataflex.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/dataeqwh/test.dataflex.ng/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home/dataeqwh/test.dataflex.ng/mobile/login/index.php(24): require_once('/home/dataeqwh/...')
+#5 {main}
+  thrown in /home/dataeqwh/test.dataflex.ng/core/Models/Model.php on line 29
+[23-Oct-2023 15:58:42 America/New_York] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): failed to open stream: No such file or directory in /home/dataeqwh/public_html/mobile/home/includes/auto_loader.php on line 20
+[23-Oct-2023 15:58:42 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/dataeqwh/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:17:57 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:17:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:18:26 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:18:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:11 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:25 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:27 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:29 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:50 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:21:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:22:15 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:22:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:23:37 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[26-Feb-2024 17:23:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/smartdat/public_html/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/public_html/mobile/home/includes/route.php(33): require_once()
+#1 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/public_html/mobile/home/includes/auto_loader.php on line 20
+[03-Mar-2024 17:23:30 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/smartdat/public_html/core/Models/Model.php:29
+Stack trace:
+#0 /home/smartdat/public_html/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'smartdat_vtu', 'smartdat_vtu')
+#1 /home/smartdat/public_html/core/Models/Model.php(23): Model->connectDb()
+#2 /home/smartdat/public_html/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/smartdat/public_html/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home/smartdat/public_html/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#5 {main}
+  thrown in /home/smartdat/public_html/core/Models/Model.php on line 29
+[05-Jul-2024 15:27:31 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php on line 20
+[05-Jul-2024 15:27:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/smartsub.ng/mobile/home/includes/route.php(32): require_once()
+#1 /home/smartdat/smartsub.ng/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php on line 20
+[05-Jul-2024 15:41:38 UTC] PHP Warning:  require_once(../../core/helpers/vendor/autoload.php): Failed to open stream: No such file or directory in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php on line 20
+[05-Jul-2024 15:41:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../core/helpers/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php:20
+Stack trace:
+#0 /home/smartdat/smartsub.ng/mobile/home/includes/route.php(32): require_once()
+#1 /home/smartdat/smartsub.ng/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#2 {main}
+  thrown in /home/smartdat/smartsub.ng/mobile/home/includes/auto_loader.php on line 20
+[05-Jul-2024 16:43:27 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'ksbdata_update'@'localhost' (using password: YES) in /home/smartdat/smartsub.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/smartdat/smartsub.ng/core/Models/Model.php(29): PDO->__construct()
+#1 /home/smartdat/smartsub.ng/core/Models/Model.php(23): Model->connectDb()
+#2 /home/smartdat/smartsub.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/smartdat/smartsub.ng/mobile/home/includes/route.php(66): Subscriber->__construct()
+#4 /home/smartdat/smartsub.ng/mobile/login/index.php(24): require_once('/home/smartdat/...')
+#5 {main}
+  thrown in /home/smartdat/smartsub.ng/core/Models/Model.php on line 29
+[17-Sep-2024 03:02:38 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'smartsub_vtu'@'localhost' (using password: YES) in /home1/abdulkur/public_html/core/Models/Model.php:29
+Stack trace:
+#0 /home1/abdulkur/public_html/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'smartsub_vtu', 'smartsub_vtu')
+#1 /home1/abdulkur/public_html/core/Models/Model.php(23): Model->connectDb()
+#2 /home1/abdulkur/public_html/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home1/abdulkur/public_html/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home1/abdulkur/public_html/mobile/login/index.php(24): require_once('/home1/abdulkur...')
+#5 {main}
+  thrown in /home1/abdulkur/public_html/core/Models/Model.php on line 29
+[20-Sep-2024 15:22:47 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'abdulkur_data'@'localhost' (using password: YES) in /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'abdulkur_data', 'P*WxHY0!rgM5')
+#1 /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php(23): Model->connectDb()
+#2 /home/vtutele1/paga.vtutelecom.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/vtutele1/paga.vtutelecom.ng/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home/vtutele1/paga.vtutelecom.ng/mobile/login/index.php(24): require_once('/home/vtutele1/...')
+#5 {main}
+  thrown in /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php on line 29
+[20-Sep-2024 15:25:24 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'abdulkur_data'@'localhost' (using password: YES) in /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'abdulkur_data', 'P*WxHY0!rgM5')
+#1 /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php(23): Model->connectDb()
+#2 /home/vtutele1/paga.vtutelecom.ng/core/Controllers/Subscriber.php(56): Model->__construct()
+#3 /home/vtutele1/paga.vtutelecom.ng/mobile/home/includes/route.php(67): Subscriber->__construct()
+#4 /home/vtutele1/paga.vtutelecom.ng/mobile/login/index.php(24): require_once('/home/vtutele1/...')
+#5 {main}
+  thrown in /home/vtutele1/paga.vtutelecom.ng/core/Models/Model.php on line 29

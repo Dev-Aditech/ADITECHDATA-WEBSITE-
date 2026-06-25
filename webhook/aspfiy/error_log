@@ -1,0 +1,13 @@
+[20-Sep-2024 02:10:21 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiAccess::verifyAspfiyNotification() in /home/vtutele1/public_html/webhook/aspfiy/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/vtutele1/public_html/webhook/aspfiy/index.php on line 43
+[20-Sep-2024 02:23:39 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiModel::verifyAspfiyNotification() in /home/vtutele1/public_html/core/Controllers/ApiAccess.php:495
+Stack trace:
+#0 /home/vtutele1/public_html/webhook/aspfiy/index.php(43): ApiAccess->verifyAspfiyNotification('13cb2c0c6a34f73...', 'vtutelecom.ng@g...')
+#1 {main}
+  thrown in /home/vtutele1/public_html/core/Controllers/ApiAccess.php on line 495
+[20-Sep-2024 02:31:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined method ApiAccess::recordAspfiyTransaction() in /home/vtutele1/public_html/webhook/aspfiy/index.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/vtutele1/public_html/webhook/aspfiy/index.php on line 67

@@ -1,0 +1,8 @@
+[13-Nov-2024 08:23:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'vtutelec_haske'@'localhost' (using password: YES) in /home2/specials/public_html/slips/nin/standard/index.php on line 2
+[13-Nov-2024 08:23:09 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/standard/index.php on line 6
+[13-Nov-2024 08:23:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/standard/index.php on line 7
+[13-Nov-2024 08:23:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/specials/public_html/slips/nin/standard/index.php on line 8
+[14-Nov-2024 18:44:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'vtutelec_haske'@'localhost' (using password: YES) in /home2/specials/public_html/slips/nin/standard/index.php on line 2
+[14-Nov-2024 18:44:04 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/standard/index.php on line 6
+[14-Nov-2024 18:44:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home2/specials/public_html/slips/nin/standard/index.php on line 7
+[14-Nov-2024 18:44:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/specials/public_html/slips/nin/standard/index.php on line 8

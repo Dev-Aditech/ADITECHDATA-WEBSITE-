@@ -1,0 +1,6 @@
+null : {
+                "meter_number": "997949",
+            	"meter_type" : "postpaid",
+            	"amount" : "1000",
+            	"service" : "1"
+            }
